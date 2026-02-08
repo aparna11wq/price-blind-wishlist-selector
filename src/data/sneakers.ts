@@ -1,0 +1,56 @@
+export const sneakers = [
+    {
+        id: "puma-runner-sneakers",
+    brandName: "Puma",
+    productName: "Unisex ST Runner v4 Sneakers",
+    category: "sneakers",
+    sizes: [8, 9, 10],
+    colours: [
+      { name: "Navy Blue", value: "navy blue" },
+      { name: "Black", value: "black" },
+      { name: "Pink", value: "pink" },
+    ],
+    rating: 4.4,
+    reviewCount: 233,
+    images: ["/images/Puma-ST-Runner-v4-Mesh-Sneakers-1.jpg", "/images/Puma-ST-Runner-v4-Mesh-Sneakers-2.jpg", "/images/Puma-ST-Runner-v4-Mesh-Sneakers-3.jpg", "/images/Puma-ST-Runner-v4-Mesh-Sneakers-4.jpg", "/images/Puma-ST-Runner-v4-Mesh-Sneakers-5.jpg"],
+  },
+  {
+    id: "adidas-stan-smith",
+    brandName: "ADIDAS Originals",
+    productName: "Men Stan Smith Everyday Sneakers",
+    category: "sneakers",
+    sizes: [6, 7, 9, 12],
+    colours: [
+        { name: "Brown", value: "brown" },
+      { name: "Core Black", value: "black" },
+    ],
+    rating: 3.8,
+    reviewCount: 28,
+    images: [
+      "/images/Adidas-Stan-Smith-Shoes-Black-2.jpg",
+      "/images/Adidas-Stan-Smith-Shoes-Black-3.jpg",
+      "/images/Adidas-Stan-Smith-Shoes-Black-4.jpg",
+      "/images/Adidas-Stan-Smith-Shoes-Black-5.jpg",
+      "/images/Adidas-Stan-Smith-Shoes-Black-6.jpg",
+    ],
+  },
+  {
+    id: "asics-leather-sneakers",
+    brandName: "Asics",
+    productName: "SKYHAND OG Unisex Leather Round Toe Lace-Ups Sneakers",
+    category: "sneakers",
+    sizes: [6,7,8,9,10,11,12],
+    colours: [
+      { name: "Tan Brown", value: "tan brown" },
+    ],
+    rating: 5,
+    reviewCount: 8,
+    images: [
+      "/images/Asics-Leather-Sneakers-1.jpg",
+      "/images/Asics-Leather-Sneakers-2.jpg",
+      "/images/Asics-Leather-Sneakers-3.jpg",
+      "/images/Asics-Leather-Sneakers-4.jpg",
+      "/images/Asics-Leather-Sneakers-5.jpg",
+    ],
+  },
+];
