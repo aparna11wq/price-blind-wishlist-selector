@@ -5,10 +5,10 @@ export const sneakers = [
     productName: "Unisex ST Runner v4 Sneakers",
     category: "sneakers",
     sizes: [8, 9, 10],
-    colours: [
-      { name: "Navy Blue", value: "navy blue", color: "#000080" },
-      { name: "Black", value: "black", color: "#000000" },
-      { name: "Pink", value: "pink", color: "#FFC0CB" },
+    colors: [
+      { name: "Navy Blue", value: "Navy Blue", colors: ["#000080"]},
+      { name: "Black", value: "Black", colors: ["#000000"]},
+      { name: "Pink", value: "Pink", colors: ["#FFC0CB"]},
     ],
     rating: 4.4,
     reviewCount: 233,
@@ -20,7 +20,7 @@ export const sneakers = [
     productName: "X Lows TUSCAN",
     category: "sneakers",
     sizes: [3, 5, 6, 7, 8, 9, 10, 11, 12],
-    colours: [{ name: "White Beige Colorblocked", value: "brown", color: "#A52A2A" }],
+    colors: [{ name: "White Beige Colorblocked", value: "Colorblocked", colors: ["FFFFFF", "#F5F5DC"] }],
     rating: null,
     reviewCount: null,
     images: [
@@ -40,7 +40,7 @@ export const sneakers = [
     productName: "UL720EF1 Suede Sneakers",
     category: "sneakers",
     sizes: [7, 7.5, 8],
-    colours: [{ name: "Beige", value: "beige", color: "#F5F5DC" }],
+    colors: [{ name: "Beige", value: "Beige", colors: ["#F5F5DC"] }],
     rating: 3.9,
     reviewCount: 298,
     images: [
@@ -57,9 +57,8 @@ export const sneakers = [
     productName: "Men Stan Smith Everyday Sneakers",
     category: "sneakers",
     sizes: [6, 7, 9, 12],
-    colours: [
-      { name: "Brown", value: "brown", color: "#A52A2A" },
-      { name: "Core Black", value: "black", color: "#000000" },
+    colors: [
+      { name: "Black", value: "Black", colors: ["#000000"] },
     ],
     rating: 3.8,
     reviewCount: 28,
@@ -78,8 +77,8 @@ export const sneakers = [
     productName: "SKYHAND OG Unisex Leather Round Toe Lace-Ups Sneakers",
     category: "sneakers",
     sizes: [6, 7, 8, 9, 10, 11, 12],
-    colours: [
-      { name: "Tan Brown", value: "tan brown", color: "#A52A2A" },
+    colors: [
+      { name: "Tan Brown", value: "Tan Brown", colors: [ "#A52A2A"] },
     ],
     rating: 5,
     reviewCount: 8,
@@ -97,7 +96,7 @@ export const sneakers = [
     productName: "Ascenso Sneakers",
     category: "sneakers",
     sizes: [7, 8, 9, 10, 11],
-    colours: [{ name: "Grey", value: "grey", color: "#808080" }],
+    colors: [{ name: "Grey", value: "Grey", colors: [ "#808080"] }],
     rating: 4.6,
     reviewCount: 39,
     images: [
@@ -116,7 +115,7 @@ export const sneakers = [
     productName: "Blazer Low Pro GT Lace-Up Shoes",
     category: "sneakers",
     sizes: [6, 7, 8, 9, 10, 11, 12],
-    colours: [{ name: "Brown", value: "brown", color: "#A52A2A" }],
+    colors: [{ name: "Brown", value: "Brown", colors: [ "#A52A2A"] }],
     rating: 4.2,
     reviewCount: 13,
     images: [
@@ -137,7 +136,7 @@ export const sneakers = [
     productName: "Unisex Future Rider Displaced Sneakers",
     category: "sneakers",
     sizes: [6, 7, 8, 9, 10, 11],
-    colours: [{ name: "Grey Colourblocked", value: "grey", color: "#808080" }],
+    colors: [{ name: "Grey Colourblocked", value: "Grey", colors: [ "#808080"] }],
     rating: 4.5,
     reviewCount: 685,
     images: [
@@ -154,7 +153,7 @@ export const sneakers = [
     productName: "Men SL 72 RS Lace-Up Casual Shoes",
     category: "sneakers",
     sizes: [6, 7, 8, 9, 10, 11, 12],
-    colours: [{ name: "Brown", value: "brown", color: "#A52A2A" }],
+    colors: [{ name: "Brown", value: "Brown", colors: [ "#A52A2A"] }],
     rating: 3.5,
     reviewCount: 34,
     images: [
@@ -175,8 +174,8 @@ export const sneakers = [
     productName: "Future Rider Play On Sneakers",
     category: "sneakers",
     sizes: [6, 7, 8],
-    colours: [
-      { name: "Black", value: "black", color: "#000000" },
+    colors: [
+      { name: "Black", value: "Black", colors: [ "#000000"] },
     ],
     rating: 4.3,
     reviewCount: 774,
@@ -194,7 +193,7 @@ export const sneakers = [
     productName: "X Lows CHESTNUT",
     category: "sneakers",
     sizes: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    colours: [{ name: "Black Brown Colorblocked", value: "black", color: "#000000" }],
+    colors: [{ name: "Black Brown Colorblocked", value: "Colorblocked", colors: [ "#000000", "#A52A2A"] }],
     rating: null,
     reviewCount: null,
     images: [
@@ -215,7 +214,7 @@ export const sneakers = [
     productName: "SKYHAND OG Leather Round Toe Lace-Ups Sneakers",
     category: "sneakers",
     sizes: [6, 7, 8, 9, 10, 11, 12],
-    colours: [{ name: "Black", value: "black", color: "#000000" }],
+    colors: [{ name: "Black", value: "Black", colors: [ "#000000"] }],
     rating: 5,
     reviewCount: 8,
     images: [
@@ -230,7 +229,7 @@ export const sneakers = [
     productName: "Future Rider Play On Sneakers",
     category: "sneakers",
     sizes: [6, 7, 8, 9, 10],
-    colours: [{ name: "Black", value: "black", color: "#000000" }],
+    colors: [{ name: "Black", value: "Black", colors: [ "#000000"] }],
     rating: 4.3,
     reviewCount: 774,
     images: [
@@ -248,7 +247,7 @@ export const sneakers = [
     productName: "Men Lace-Up Sneakers with Rubber Sole",
     category: "sneakers",
     sizes: [6, 7, 8, 9, 10, 11],
-    colours: [{ name: "Burgundy", value: "burgundy", color: "#800020" }],
+    colors: [{ name: "Burgundy", value: "Burgundy", colors: [ "#800020"] }],
     rating: null,
     reviewCount: null,
     images: [
@@ -268,7 +267,7 @@ export const sneakers = [
     productName: "Rickie Lace-Up Sneakers",
     category: "sneakers",
     sizes: [7, 8, 9],
-    colours: [{ name: "Black", value: "black", color: "#000000" }],
+    colors: [{ name: "Black", value: "Black", colors: [ "#000000"] }],
     rating: 4,
     reviewCount: 171,
     images: [
@@ -285,7 +284,7 @@ export const sneakers = [
     productName: "X Lows MADAGASCAR",
     category: "sneakers",
     sizes: [3, 4, 5, 6, 7, 8, 9, 10, 12],
-    colours: [{ name: "Coffee Brown Colourblocked", value: "brown", color: "#A52A2A" }],
+    colors: [{ name: "Coffee Brown Colourblocked", value: "Brown", colors: [ "#A52A2A"] }],
     rating: null,
     reviewCount: null,
     images: [
@@ -304,7 +303,7 @@ export const sneakers = [
     productName: "Unisex X-Ray 2 Square Colourblocked Sneakers",
     category: "sneakers",
     sizes: [9],
-    colours: [{ name: "Colourblocked", value: "colourblocked", color: "#808080" }],
+    colors: [{ name: "White Blue Colorblocked", value: "Colorblocked", colors: [ "#808080", "FFFFFF"] }],
     rating: 4.6,
     reviewCount: 46,
     images: [
@@ -321,7 +320,7 @@ export const sneakers = [
     productName: "Men's 720 Leather Sneakers",
     category: "sneakers",
     sizes: [6, 7, 8, 9, 10],
-    colours: [{ name: "Burgundy", value: "burgundy", color: "#800020" }],
+    colors: [{ name: "Burgundy", value: "Burgundy", colors: ["#800020"] }],
     rating: 3.9,
     reviewCount: 298,
     images: [
@@ -338,7 +337,7 @@ export const sneakers = [
     productName: "Grand Court 2.0 Tennis Shoes",
     category: "sneakers",
     sizes: [6, 7, 11],
-    colours: [{ name: "Black", value: "black", color: "#000000" }],
+    colors: [{ name: "Black", value: "Black", colors: [ "#000000"] }],
     rating: 3.5,
     reviewCount: 14,
     images: [
@@ -356,7 +355,7 @@ export const sneakers = [
     productName: "X Lows TIRAMISU",
     category: "sneakers",
     sizes: [3, 5, 7, 9, 10, 11, 12],
-    colours: [{ name: "Coffee Brown", value: "brown", color: "#A52A2A" }],
+    colors: [{ name: "Coffee Brown", value: "Brown", colors: [ "#A52A2A"] }],
     rating: null,
     reviewCount: null,
     images: [
@@ -374,7 +373,7 @@ export const sneakers = [
     productName: "Unisex Samba OG Leather Sneakers",
     category: "sneakers",
     sizes: [4, 8, 10, 11, 12],
-    colours: [{ name: "Aurora Ivy", value: "green", color: "#22C55E" }],
+    colors: [{ name: "Aurora Ivy", value: "Green", colors: [ "#22C55E"] }],
     rating: 4.6,
     reviewCount: 77,
     images: [
@@ -396,7 +395,7 @@ export const sneakers = [
     productName: "Unisex Samba OG Leather Sneakers",
     category: "sneakers",
     sizes: [4, 8, 10, 11, 12],
-    colours: [{ name: "Burgundy", value: "burgundy", color: "#800020" }],
+    colors: [{ name: "Burgundy", value: "Burgundy", colors: [ "#800020"] }],
     rating: 4.4,
     reviewCount: 6000,
     images: [
@@ -417,7 +416,7 @@ export const sneakers = [
     productName: "Men's 574 Sneakers",
     category: "sneakers",
     sizes: [5, 5.5, 6.5],
-    colours: [{ name: "Black", value: "black", color: "#000000" }],
+    colors: [{ name: "Black", value: "Black", colors: [ "#000000"] }],
     rating: null,
     reviewCount: null,
     images: [
@@ -434,7 +433,7 @@ export const sneakers = [
     productName: "Unisex Samba OG Leather Sneakers",
     category: "sneakers",
     sizes: [10, 11, 12],
-    colours: [{ name: "Burgundy/Off White", value: "burgundy", color: "#800020" }],
+    colors: [{ name: "Burgundy/Off White", value: "Burgundy", colors: [ "#800020"] }],
     rating: 4.4,
     reviewCount: 6000,
     images: [
@@ -455,7 +454,7 @@ export const sneakers = [
     productName: "Handball Spezial Shoes",
     category: "sneakers",
     sizes: [10, 11, 12],
-    colours: [{ name: "Grey", value: "grey", color: "#808080" }],
+    colors: [{ name: "Grey", value: "Grey", colors: [ "#808080"] }],
     rating: 4.4,
     reviewCount: 6000,
     images: [

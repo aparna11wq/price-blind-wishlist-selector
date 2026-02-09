@@ -25,7 +25,7 @@ export default function Product() {
 
   const handleChooseGift = () => {
     if (!canSubmit) return;
-    const colourObj = product.colours.find((c) => c.value === selectedColour);
+    const colourObj = product.colors.find((c) => c.value === selectedColour);
     setSelectedProduct(
       product,
       selectedSize,
@@ -90,7 +90,7 @@ export default function Product() {
                     key={size}
                     type="button"
                     onClick={() => setSelectedSize(size)}
-                    className={`w-12 h-12 rounded border-2 text-sm font-medium ${
+                    className={`w-12 h-12 rounded border text-sm font-medium ${
                       selectedSize === size
                         ? "border-black bg-black text-white"
                         : "border-gray-300 hover:border-gray-400"
@@ -105,12 +105,12 @@ export default function Product() {
             <div className="mt-4">
               <p className="text-sm font-medium text-gray-700 mb-2">Colour</p>
               <div className="flex gap-2 flex-wrap">
-                {product.colours.map((c) => (
+                {product.colors.map((c) => (
                   <button
                     key={c.value}
                     type="button"
                     onClick={() => setSelectedColour(c.value)}
-                    className={`px-4 py-2 rounded border-2 text-sm font-medium ${
+                    className={`px-4 py-2 rounded border text-sm font-medium ${
                       selectedColour === c.value
                         ? "border-black bg-black text-white"
                         : "border-gray-300 hover:border-gray-400"
