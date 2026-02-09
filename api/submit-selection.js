@@ -11,8 +11,8 @@ export default async function handler(req, res) {
     const { productId, brand, productName, size, colour } = req.body || {};
 
     await resend.emails.send({
-      // from: process.env.RESEND_FROM_EMAIL || "onboarding@resend.dev",
-      to: process.env.RESEND_TO_EMAIL || "singh.aparna11wq@gmail.com",
+      from: process.env.RESEND_FROM_EMAIL,
+      to: process.env.RESEND_TO_EMAIL,
       subject: "Sneaker Selected 👟",
       html: `
         <p><strong>Gift selection confirmed</strong></p>
