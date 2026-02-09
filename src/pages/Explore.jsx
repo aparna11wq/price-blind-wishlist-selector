@@ -84,16 +84,13 @@ export default function Explore() {
   return (
     <div className="min-h-screen bg-gray-50 flex m-6">
       <aside className="w-56 shrink-0 border-r border-gray-200 bg-white p-4 sticky top-0 self-start max-h-screen overflow-y-auto">
-        <div className="font-semibold text-gray-900 mb-4 text-xl">Filters</div>
+        <div className="font-semibold text-gray-900 mb-4 text-2xl">Filters</div>
         <div className="border-b border-gray-200 mb-4" />
 
-        <div className="mb-4">
-          <p className="text-xs font-semibold text-gray-500 uppercase mb-4">Category</p>
-        </div>
-        <div className="mb-4">
-          <p className="text-xs font-medium text-gray-500 uppercase mb-2">Brand</p>
+        <div className="mb-5">
+          <p className="text-xl font-medium text-gray-500 mb-4">Brand</p>
           {BRANDS.map((b) => (
-            <label key={b.id} className="flex items-center gap-2 mb-1.5 cursor-pointer">
+            <label key={b.id} className="flex items-center gap-3 mb-2 cursor-pointer">
               <input
                 type="checkbox"
                 checked={brandFilters.includes(b.id)}
@@ -104,10 +101,12 @@ export default function Explore() {
             </label>
           ))}
         </div>
-        <div className="mb-4">
-          <p className="text-xs font-medium text-gray-500 uppercase mb-2">Size</p>
+        <div className="border-b border-gray-200 mb-4" />
+
+        <div className="mb-5">
+          <p className="text-xl font-medium text-gray-500 mb-4">Size</p>
           {SIZES.map((s) => (
-            <label key={s.id} className="flex items-center gap-2 mb-1.5 cursor-pointer">
+            <label key={s.id} className="flex items-center gap-3 mb-2 cursor-pointer">
               <input
                 type="checkbox"
                 checked={sizeFilters.includes(s.label)}
@@ -118,11 +117,12 @@ export default function Explore() {
             </label>
           ))}
         </div>
+        <div className="border-b border-gray-200 mb-4" />
 
-        <div>
-          <p className="text-xs font-medium text-gray-500 uppercase mb-2">Colour</p>
+        <div className="mb-5">
+          <p className="text-xl font-medium text-gray-500 mb-4">Colour</p>
           {COLORS.map((c) => (
-            <label key={c.id} className="flex items-center gap-2 mb-1.5 cursor-pointer">
+            <label key={c.id} className="flex items-center gap-3 mb-2 cursor-pointer">
               <input
                 type="checkbox"
                 checked={colourFilters.includes(c.id)}
