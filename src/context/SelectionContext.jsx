@@ -4,7 +4,7 @@ const STORAGE_KEY = "gift-selection";
 
 const defaultSelection = {
   productId: null,
-  brandName: null,
+  brand: null,
   productName: null,
   size: null,
   colour: null,
@@ -50,7 +50,7 @@ export function SelectionProvider({ children }) {
     setSelectionState((prev) => ({
       ...prev,
       productId: product.id,
-      brandName: product.brandName,
+      brand: product.brand,
       productName: product.productName,
       size,
       colour,

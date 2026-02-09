@@ -25,11 +25,11 @@ export default function Product() {
 
   const handleChooseGift = () => {
     if (!canSubmit) return;
-    const colourObj = product.colors.find((c) => c.value === selectedColour);
+    const colourObj = product.colors.find((c) => c.value.toLowerCase() === selectedColour.toLowerCase());
     setSelectedProduct(
       product,
       selectedSize,
-      colourObj ? colourObj.name : selectedColour
+      colourObj ? colourObj.value : selectedColour
     );
     navigate("/confirm");
   };
@@ -75,7 +75,7 @@ export default function Product() {
 
           {/* Right: details */}
           <div className="flex-1">
-            <p className="text-sm text-gray-500 uppercase tracking-wide">{product.brandName}</p>
+            <p className="text-sm text-gray-500 uppercase tracking-wide">{product.brand}</p>
             <h1 className="text-2xl font-semibold text-gray-900 mt-1">{product.productName}</h1>
             <div className="flex items-center gap-2 mt-2 text-sm text-gray-600">
               <span>★ {product.rating}</span>

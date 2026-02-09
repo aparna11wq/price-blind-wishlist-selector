@@ -8,9 +8,10 @@ export default function Confirm() {
   const [loading, setLoading] = useState(false);
   const [toast, setToast] = useState(null);
 
+  console.log(selection);
   const hasSelection =
     selection.productId &&
-    selection.brandName &&
+    selection.brand &&
     selection.productName &&
     selection.size != null &&
     selection.colour;
@@ -24,7 +25,7 @@ export default function Confirm() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           productId: selection.productId,
-          brandName: selection.brandName,
+          brand: selection.brand,
           productName: selection.productName,
           size: selection.size,
           colour: selection.colour,
@@ -81,7 +82,7 @@ export default function Confirm() {
             />
           </div>
           <div className="min-w-0">
-            <p className="text-sm text-gray-500">{selection.brandName}</p>
+            <p className="text-sm text-gray-500">{selection.brand}</p>
             <p className="font-medium text-gray-900">{selection.productName}</p>
             <p className="text-sm text-gray-600 mt-1">
               Size UK {selection.size} · {selection.colour}

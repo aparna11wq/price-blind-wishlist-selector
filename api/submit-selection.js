@@ -8,7 +8,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { productId, brandName, productName, size, colour } = req.body || {};
+    const { productId, brand, productName, size, colour } = req.body || {};
 
     await resend.emails.send({
       // from: process.env.RESEND_FROM_EMAIL || "onboarding@resend.dev",
@@ -16,7 +16,7 @@ export default async function handler(req, res) {
       subject: "Sneaker Selected 👟",
       html: `
         <p><strong>Gift selection confirmed</strong></p>
-        <p>Product: ${brandName || ""} – ${productName || ""}</p>
+        <p>Product: ${brand || ""} – ${productName || ""}</p>
         <p>ID: ${productId || ""}</p>
         <p>Size: UK ${size ?? ""} · Colour: ${colour ?? ""}</p>
       `,
