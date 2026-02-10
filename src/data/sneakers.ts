@@ -6,9 +6,7 @@ export const sneakers = [
     category: "sneakers",
     sizes: [8, 9, 10],
     colors: [
-      { name: "Navy Blue", value: "Navy Blue", colors: ["#000080"]},
       { name: "Black", value: "Black", colors: ["#000000"]},
-      { name: "Pink", value: "Pink", colors: ["#FFC0CB"]},
     ],
     rating: 4.4,
     reviewCount: 233,
@@ -20,7 +18,7 @@ export const sneakers = [
     productName: "X Lows TUSCAN",
     category: "sneakers",
     sizes: [3, 5, 6, 7, 8, 9, 10, 11, 12],
-    colors: [{ name: "White Beige Colorblocked", value: "Colorblocked", colors: ["FFFFFF", "#F5F5DC"] }],
+    colors: [{ name: "Colorblocked", value: "Colorblocked", colors: ["FFFFFF", "#F5F5DC"] }],
     rating: null,
     reviewCount: null,
     images: [
@@ -78,7 +76,7 @@ export const sneakers = [
     category: "sneakers",
     sizes: [6, 7, 8, 9, 10, 11, 12],
     colors: [
-      { name: "Tan Brown", value: "Tan Brown", colors: [ "#A52A2A"] },
+      { name: "Brown", value: "Brown", colors: [ "#A52A2A"] },
     ],
     rating: 5,
     reviewCount: 8,
@@ -96,7 +94,7 @@ export const sneakers = [
     productName: "Ascenso Sneakers",
     category: "sneakers",
     sizes: [7, 8, 9, 10, 11],
-    colors: [{ name: "Grey", value: "Grey", colors: [ "#808080"] }],
+    colors: [{ name: "White", value: "White", colors: [ "#FFFFFF"] }],
     rating: 4.6,
     reviewCount: 39,
     images: [
@@ -136,7 +134,7 @@ export const sneakers = [
     productName: "Unisex Future Rider Displaced Sneakers",
     category: "sneakers",
     sizes: [6, 7, 8, 9, 10, 11],
-    colors: [{ name: "Grey Colourblocked", value: "Grey", colors: [ "#808080"] }],
+    colors: [{ name: "Colourblocked", value: "Colorblocked", colors: [ "#808080", "000000", ] }],
     rating: 4.5,
     reviewCount: 685,
     images: [
@@ -193,7 +191,7 @@ export const sneakers = [
     productName: "X Lows CHESTNUT",
     category: "sneakers",
     sizes: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    colors: [{ name: "Black Brown Colorblocked", value: "Colorblocked", colors: [ "#000000", "#A52A2A"] }],
+    colors: [{ name: "Colorblocked", value: "Colorblocked", colors: [ "#000000", "#A52A2A"] }],
     rating: null,
     reviewCount: null,
     images: [
@@ -206,21 +204,6 @@ export const sneakers = [
       "/images/Comet-X Lows Chestnut-7.jpg",
       "/images/Comet-X Lows Chestnut-8.jpg",
       "/images/Comet-X Lows Chestnut-9.jpg"
-    ]
-  },
-  {
-    id: "asics-skyhand-og-leather",
-    brand: "Asics",
-    productName: "SKYHAND OG Leather Round Toe Lace-Ups Sneakers",
-    category: "sneakers",
-    sizes: [6, 7, 8, 9, 10, 11, 12],
-    colors: [{ name: "Black", value: "Black", colors: [ "#000000"] }],
-    rating: 5,
-    reviewCount: 8,
-    images: [
-      "/images/asics-skyhand-og-1.jpg",
-      "/images/asics-skyhand-og-2.jpg",
-      "/images/asics-skyhand-og-3.jpg"
     ]
   },
   {
@@ -284,7 +267,7 @@ export const sneakers = [
     productName: "X Lows MADAGASCAR",
     category: "sneakers",
     sizes: [3, 4, 5, 6, 7, 8, 9, 10, 12],
-    colors: [{ name: "Coffee Brown Colourblocked", value: "Brown", colors: [ "#A52A2A"] }],
+    colors: [{ name: "Colorblocked", value: "Colorblocked", colors: [ "FFFFFF", "#A52A2A", "#808080", "#22C55E"] }],
     rating: null,
     reviewCount: null,
     images: [
@@ -303,7 +286,7 @@ export const sneakers = [
     productName: "Unisex X-Ray 2 Square Colourblocked Sneakers",
     category: "sneakers",
     sizes: [9],
-    colors: [{ name: "White Blue Colorblocked", value: "Colorblocked", colors: [ "#808080", "FFFFFF"] }],
+    colors: [{ name: "Colorblocked", value: "Colorblocked", colors: [ "#808080", "FFFFFF"] }],
     rating: 4.6,
     reviewCount: 46,
     images: [
@@ -355,7 +338,7 @@ export const sneakers = [
     productName: "X Lows TIRAMISU",
     category: "sneakers",
     sizes: [3, 5, 7, 9, 10, 11, 12],
-    colors: [{ name: "Coffee Brown", value: "Brown", colors: [ "#A52A2A"] }],
+    colors: [{ name: "Colorblocked", value: "Colorblocked", colors: [ "#A52A2A", "#F5F5DC"] }],
     rating: null,
     reviewCount: null,
     images: [
@@ -416,7 +399,7 @@ export const sneakers = [
     productName: "Men's 574 Sneakers",
     category: "sneakers",
     sizes: [5, 5.5, 6.5],
-    colors: [{ name: "Black", value: "Black", colors: [ "#000000"] }],
+    colors: [{ name: "Grey", value: "Grey", colors: [ "#808080"] }],
     rating: null,
     reviewCount: null,
     images: [

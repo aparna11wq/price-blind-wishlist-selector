@@ -75,22 +75,22 @@ export default function Product() {
 
           {/* Right: details */}
           <div className="flex-1">
-            <p className="text-sm text-gray-500 uppercase tracking-wide">{product.brand}</p>
-            <h1 className="text-2xl font-semibold text-gray-900 mt-1">{product.productName}</h1>
-            <div className="flex items-center gap-2 mt-2 text-sm text-gray-600">
+            <p className="text-xl text-gray-500 uppercase font-bold tracking-wide">{product.brand}</p>
+            <h1 className="text-2xl font-semibold text-gray-900 mt-2">{product.productName}</h1>
+            {product.rating && product.reviewCount && <div className="flex items-center gap-2 mt-2 text-m text-gray-600">
               <span>★ {product.rating}</span>
               <span>({product.reviewCount} reviews)</span>
-            </div>
+            </div>}
 
             <div className="mt-6">
               <p className="text-sm font-medium text-gray-700 mb-2">Size</p>
-              <div className="flex gap-2 flex-wrap">
+              <div className="flex gap-3 flex-wrap">
                 {product.sizes.map((size) => (
                   <button
                     key={size}
                     type="button"
                     onClick={() => setSelectedSize(size)}
-                    className={`w-12 h-12 rounded border text-sm font-medium ${
+                    className={`w-16 h-12 px-2 py-2 rounded border text-sm font-medium ${
                       selectedSize === size
                         ? "border-black bg-black text-white"
                         : "border-gray-300 hover:border-gray-400"
@@ -102,9 +102,9 @@ export default function Product() {
               </div>
             </div>
 
-            <div className="mt-4">
+            <div className="mt-6">
               <p className="text-sm font-medium text-gray-700 mb-2">Colour</p>
-              <div className="flex gap-2 flex-wrap">
+              <div className="flex gap-3 flex-wrap">
                 {product.colors.map((c) => (
                   <button
                     key={c.value}
