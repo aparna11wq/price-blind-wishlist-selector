@@ -94,7 +94,7 @@ export default function Confirm() {
           <button
             type="button"
             onClick={handleYes}
-            disabled={loading}
+            disabled={true}
             className="px-6 py-3 bg-black text-white rounded-lg font-medium hover:bg-gray-800 transition disabled:opacity-50"
           >
             {loading ? "Confirming…" : "Yes"}
